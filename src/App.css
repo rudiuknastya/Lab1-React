@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+*{
+  margin: 0;
+}
+.header{
+  width: 100%;
+  display:flex;
+  justify-content: flex-start;
+  position: fixed;
+  padding: 20px 0 20px 5%;
+  background-color:#2E3033;
+  box-shadow: 0px 1px 5px black;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #FBFBFF;
+}
+.App{
+  min-height: 100vh;
+  background-color:#2E3033;
+  color: #FBFBFF;
+  margin: 0;
+	padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.dropdown-menu.active{
+  opacity: 1;
+  visibility: visible;
+  background-color: black;
+}
+
+.dropdown-menu.inactive{
+  opacity: 0;
+  visibility: hidden;
+}
+.menu{
+  position: fixed;
+  top: 2.8%;
+  right: 10%;
+  padding: 5px 5px;
+  border-radius: 5px;
+  text-align: center;
+  width: 15%;
+}
+.sort{
+  background-color: black;
+  padding: 5% 5%;
+  font-family: 'Roboto Mono', monospace;
+}
+.menuItem{
+  padding: 5% 0;
+}
+.menuItem:hover{
+  background-color: crimson;
+}
+.sort:hover{
+  background-color: crimson;
+}

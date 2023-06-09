@@ -1,0 +1,17 @@
+.movie-card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 5px;
+    border-radius: 7px;
+    border: solid black;
+    margin: 5px 0;
+}
+.movie-card:hover{
+    background-color: black;
+}
+
+.title, .vote{
+    text-align: center;
+    margin: 7% 0;
+}

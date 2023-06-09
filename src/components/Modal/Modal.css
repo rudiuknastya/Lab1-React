@@ -1,0 +1,73 @@
+.overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.modal{
+    position:fixed;
+    top: 20%;
+    width: 80%;
+    height: 75%;
+    background-color:#2E3033;
+    border: solid black;
+    border-radius: 7px;
+    font-size: 16px;
+}
+.imageoverview{
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+.about{
+    width: 43%;
+}
+.modalImg{
+    width: 50%;
+    height: 80%;
+}
+.modaltitle{
+    text-align: center;
+    font-size: 25px;
+    margin: 2% 0 3% 0;
+}
+span{
+    display: block;
+    padding-top: 10px;
+}
+.exit{
+    font-size: 20px;
+    position: fixed;
+    top: 20%;
+    right: 14%;
+    border: solid black;
+    padding: 0 5px;
+    margin-top: 2%;
+}
+.overview{
+    width: 95%;
+}
+.trailer{
+    display: block;
+    text-decoration: none;
+    color: #FBFBFF;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: crimson;
+    width: 60%;
+    text-align: center;
+    padding: 1.5% 0;
+    border-radius: 4px;
+}
+@media (min-width: 375px) and (max-width: 800px){
+    .modaltitle{
+    font-size: 16px;
+    }
+    .modal{
+        font-size: 10px;
+    }
+    .exit{
+        font-size: 16px;
+    }
+}
