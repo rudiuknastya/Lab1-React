@@ -5,10 +5,6 @@ import Movie from './components/Movie/Movie';
 import React, { useState, useEffect  } from 'react';
 
 const API = "https://api.themoviedb.org/3/discover/movie?api_key=af32182a7fa62d9883bd2d0eb2d16edb";
-const oldestToNewAPI ='https://api.themoviedb.org/3/discover/movie?api_key=af32182a7fa62d9883bd2d0eb2d16edb&language=en-US&sort_by=release_date.asc&include_adult=false&page=1';
-const newToOldestAPI ='https://api.themoviedb.org/3/discover/movie?api_key=af32182a7fa62d9883bd2d0eb2d16edb&language=en-US&sort_by=release_date.desc&include_adult=false&page=1';
-const lowToHighAPI ='https://api.themoviedb.org/3/discover/movie?api_key=af32182a7fa62d9883bd2d0eb2d16edb&language=en-US&sort_by=vote_average.desc&include_adult=false&page=1';
-const zToaAPI ='https://api.themoviedb.org/3/discover/movie?api_key=af32182a7fa62d9883bd2d0eb2d16edb&language=en-US&sort_by=original_title.desc&include_adult=false&page=1';
 
 function App() {
   const [movies, setMovies] = useState([]);
